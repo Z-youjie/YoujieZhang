@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://z-youjie.github.io/zhangyoujie.github.io/
+url: https://z-youjie.github.io/zhangyoujie.github.io
 date_format: "ordinal"
 title: z-youjie
 subtitle: "闻."
@@ -13,7 +13,7 @@ encoding: "utf-8"
 # 页面左下角显示的年份
 since: 2024
 # 源码仓库，请替换成自己的
-repository: https://github.com/Z-youjie
+repository: https://github.com/Z-youjie/zhangyoujie.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
