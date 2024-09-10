@@ -2,18 +2,18 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://z-youjie.github.io/zhangyoujie.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: z-youjie
+subtitle: "闻."
+description: "张友杰的个人博客"
+keywords: 
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2024
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: https://z-youjie.github.io/zhangyoujie.github.io/
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -40,7 +40,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: 青岛的王
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Youjie Zhang
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: z-youjie
+location: QingDao, China
+email: 1109744701@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -72,32 +72,32 @@ navs:
     href: /
     label: 首页
 
-  -
-    href: /categories/
-    label: 分类
+#   -
+#     href: /categories/
+#     label: 分类
 
-  -
-    href: /archives/
-    label: 归档
-    mobile-hidden: true
+#   -
+#     href: /archives/
+#     label: 归档
+#     mobile-hidden: true
 
-  -
-    href: /open-source/
-    label: 开源
-    mobile-hidden: true
+#   -
+#     href: /open-source/
+#     label: 开源
+#     mobile-hidden: true
 
   -
     href: /fragments/
     label: 片段
 
-  -
-    href: /wiki/
-    label: 维基
+#   -
+#     href: /wiki/
+#     label: 维基
 
-  -
-    href: /links/
-    label: 链接
-    mobile-hidden: true
+#   -
+#     href: /links/
+#     label: 链接
+#     mobile-hidden: true
 
   -
     href: /about/
