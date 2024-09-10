@@ -54,19 +54,6 @@ mindmap2: false
 
 音频帧同理。
 
-## 解决
-
-修改后的代码是这样的，仅加了一行 `locale` 设置：
-
-```objc
-+ (NSDate*)dateFromStr:(NSString *)dateStr {
-    NSDateFormatter * dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
-    [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"zh_CN"]];
-    return [dateFormatter dateFromString:dateStr];
-}
-```
-
 ## 小结
 
 经过一些调试和优化，最终实现了需求里想要的双路推流不同画面的效果。
@@ -74,12 +61,3 @@ mindmap2: false
 这种方式虽然有点绕，但是在没有原生支持的情况下，也算是一种可用的方案了。
 
 如果没有项目和业务的历史包袱，可以优先考虑使用原生支持多路推流的 SDK，比如大牛直播等，这样可能会更加方便和稳定。
-## 参考
-
-- [https://developer.apple.com/documentation/foundation/nsdateformatter/1409994-datefromstring][1]
-- [https://developer.apple.com/documentation/foundation/nsdateformatter#2528261][2]
-- [https://developer.apple.com/library/archive/qa/qa1480/_index.html][3]
-
-[1]: https://developer.apple.com/documentation/foundation/nsdateformatter/1409994-datefromstring
-[2]: https://developer.apple.com/documentation/foundation/nsdateformatter#2528261
-[3]: https://developer.apple.com/library/archive/qa/qa1480/_index.html
